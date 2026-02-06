@@ -1,0 +1,57 @@
+body {
+  cursor: none;
+}
+
+/* container */
+.neon-cursor-container {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+}
+
+/* main dot */
+.cursor-main {
+  position: fixed;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgb(255, 120, 40);
+  box-shadow:
+    0 0 10px rgba(255, 120, 40, 0.9),
+    0 0 20px rgba(255, 120, 40, 0.6);
+}
+
+/* trailing ring */
+.cursor-trail {
+  position: fixed;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid rgb(236, 101, 23);
+  opacity: 0.7;
+}
+
+/* glow */
+.cursor-glow {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 150, 50, 0.4),
+    rgba(255, 150, 50, 0)
+  );
+  opacity: 0.4;
+}
+
+/* mobile off */
+@media (max-width: 768px) {
+  body {
+    cursor: auto;
+  }
+  .neon-cursor-container {
+    display: none;
+  }
+}

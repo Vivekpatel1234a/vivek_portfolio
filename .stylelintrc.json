@@ -1,0 +1,30 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "tailwind",
+          "apply",
+          "tailwind",
+          "apply",
+          "variants",
+          "responsive",
+          "screen",
+          "layer",
+          "theme",
+          "custom-variant"
+        ]
+      }
+    ],
+    "at-rule-no-deprecated": null,
+    "import-notation": null,
+    "color-function-notation": null,
+    "color-function-alias-notation": null,
+    "alpha-value-notation": "number",
+    "lightness-notation": null,
+    "hue-degree-notation": null,
+    "rule-empty-line-before": null
+  }
+}
