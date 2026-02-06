@@ -1,0 +1,30 @@
+/* GitHub Calendar Styles */
+.react-github-calendar {
+  width: 100%;
+  font-family: inherit;
+}
+
+.react-github-calendar svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.react-github-calendar .calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.react-github-calendar .calendar g text {
+  font-size: 12px;
+  fill: currentColor;
+}
+
+.react-github-calendar .calendar rect {
+  cursor: pointer;
+}
+
+.react-github-calendar .calendar rect:hover {
+  stroke: currentColor;
+  stroke-width: 2;
+}
