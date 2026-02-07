@@ -45,7 +45,7 @@ const projectsData = [
       'Modern portfolio built with Next.js, TailwindCSS, and ShadCN, deployed on Cloudflare Pages.',
     imageURL: '/portfoliovivek.png',
     github: 'https://github.com/Vivekpatel1234a',
-    live: 'https://github.com/Vivekpatel1234a',
+    live: 'https://vivek-portfolio-pearl.vercel.app/',
     icon: <IconTableColumn className="h-4 w-4 text-muted-foreground" />,
   },
   
